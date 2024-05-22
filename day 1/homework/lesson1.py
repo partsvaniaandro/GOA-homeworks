@@ -10,4 +10,4 @@ height = 1.78
 
 knows_programming = False 
 
-print("gamarjoba me var " +  name + "." + "chemi" + " " + "gvari" + " " + "aris" + " " + surname + "," + " " "var" + " " + str(age) + " " + "wlis" + "." + " " + "chemi" + " " + "simagle" + " " + "ki" + " " + str(height) + "cm") 
+print("gamarjoba me var " +  name + "." + "chemi" + " " + "gvari" + " " + "aris" + " " + surname + "," + " " "var" + " " + str(age) + " " + "wlis" + "." + " " + "chemi" + " " + "simagle" + " " + "aris" + " " + str(height) + "cm") 
