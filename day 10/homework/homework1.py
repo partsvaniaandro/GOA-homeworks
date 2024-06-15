@@ -11,5 +11,7 @@ print(total)
 for i in range(1, 101):
     total/=i
 print(total)
+print(total)
+
 
     
