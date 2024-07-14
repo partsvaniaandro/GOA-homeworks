@@ -1,6 +1,5 @@
-i=20
+num=20
 
-while i >= 1:
-    print(i)
-    i=i-1
-   
+while num >= 1:
+    print(num)
+    num=num-1

@@ -1,2 +1,7 @@
-cars = ["lamborghini", "bugatti", "ferrari", "BMW", "mercedes"]
-print(cars[0:4])
+cars1 = ["lamborghini", "bugatti", "ferrari", "BMW", "mercedes"]
+cars2 = []
+print(cars1[0:3])
+
+cars2.append(cars1[1])
+print(cars2)
+print(cars1)
