@@ -1,3 +1,0 @@
-sadsadasdasdasdasdasdasdaopisufsf
-print("asdasdasd")
-
