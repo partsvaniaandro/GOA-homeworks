@@ -1,0 +1,33 @@
+table td {
+    padding: 20px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    border-collapse: collapse;
+  }
+  
+  
+  
+  
+  
+
+  table tr:nth-child(-n+3) {
+    background-color: lightgray;
+    color: green;
+  }
+
+  table tr:nth-child(-n+2) {
+    background-color: white;
+    color: black;
+  } 
+
+  
+  
+
+  table tr:nth-child(-n+1) {
+    background-color: darkgreen; 
+    color: lightgreen;
+  }
+
+  rable tr{
+    border-radius: 10px;
+  }
