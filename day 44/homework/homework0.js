@@ -20,12 +20,7 @@ plusOne(5)
 //რომ გამოიტანოთ დაბრუნებულზე ერთით მეტი რიცხვი (მაგ: თუ ფუნქციას გადავეცით 44 საბოლლოდ უნდა გამოვიტანოთ (კონსოლში) -43 ) (ჩვეულებრივი ფუნქცია)
 
 function negative(num){
-    if (num >= 0) {
-        return -num;
-    }
-    else {
-        return num;
-    }
+    return num * -1
 
 }
 console.log(negative(5) + 1)
@@ -33,8 +28,10 @@ console.log(negative(5) + 1)
 //5) გავაკეთოთ ფუნქცია რომელიც გადაცემული ID-ს მიხედვით აბრუნებს html-ის ელემენტს (მაგ: "first" -> document.getElementbyId("first")) 
 //შემდეგ კი გამოიყენეთ ეს ფუნქცია რომ დაბრუნბულ ელემენტს 3 ატრიბუტი შევუცვალოთ (მაგ: color, backgroundColor, textContent) (ჩვეულებრიივი ფუნქცია)
 function change(id){
-    return document.getElementById(id);
+    const element = document.getElementById(id)
+    element.style.backgroundColor = "yellow";
+    element.textContent = "hello world!";
+    element.style.color = "red"
 }
-change("p1").style.backgroundColor = "yellow";
-change("p1").textContent = "hello world!";
-change("p1").style.color = "red"
+change("p1")
+
