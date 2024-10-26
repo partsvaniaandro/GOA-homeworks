@@ -22,7 +22,7 @@ console.log(func(5, 10))
 //4) შევქმნათ ფუნქცია რომელსაც კონსოლში გამოაქვს ( "Elemenet: "  და გადაცემული ელემენტი )
 function elem(id){
     const elem = document.getElementById(id);
-    console.log("element: " + elem)
+    console.log("element: " + elem.textContent)
 }
 elem("p1")
 //ამას გამოაქვს element: [object HTMLParagraphElement] კონსოლში.
