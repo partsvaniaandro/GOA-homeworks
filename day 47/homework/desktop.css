@@ -4,6 +4,15 @@
     grid-template-rows: 90px 90px 90px 90px 90px 90px;
     grid-gap: 20px;
 }
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7{
+    border-radius: 10px;
+}
 .box1{
     grid-column-start: 1;
     grid-column-end: 5;
@@ -60,6 +69,15 @@
         grid-template-rows: 220px 200px 200px 220px;
         grid-gap: 20px;
     }
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7{
+    border-radius: 10px;
+}
     .box1{
         grid-column-start: 1;
         grid-column-end: 3;
@@ -107,6 +125,15 @@
         grid-template-rows: 115px 115px 115px 115px 115px 115px;
         grid-gap: 20px;
     }
+    .box1,
+    .box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7{
+    border-radius: 10px;
+}
     .box1{
         grid-column-start: 1;
         grid-column-end: 3;
