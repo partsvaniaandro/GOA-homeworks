@@ -7,6 +7,9 @@ let timeout
 function checkLength(){
   if (userInput.value > 10000){
     console.log('number too big')
+    stopTime()
+    stop()
+    output1.textContent = 'number is too big'
     return false;
   }
   return true;
@@ -40,8 +43,9 @@ function stop(){
     output.textContent = ''
 }
 
-document.getElementById('startBtn').addEventListener('click', checkLength)
+
 document.getElementById('startBtn').addEventListener('click', numEverySec)
 document.getElementById('startBtn').addEventListener('click', stopTime)
+document.getElementById('startBtn').addEventListener('click', checkLength)
 
 document.getElementById('endBtn').addEventListener('click', stop)
