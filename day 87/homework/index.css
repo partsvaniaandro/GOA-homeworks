@@ -5,6 +5,7 @@ body{
     justify-content: center;
     align-items: center;
     color: #E5E5E5;
+    transition: 1s ease;
 }
 .displayLangIcons{
     display: flex;
@@ -17,6 +18,7 @@ body{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     margin: 10px;
+    transition: 1s ease;
 }
 .buttons{
     justify-content: center;
@@ -59,6 +61,7 @@ body{
     justify-content: center;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition: 1s ease;
 }
 .inputs input{
     width: 200px;
@@ -92,4 +95,31 @@ body{
 }
 .displayBtn button:active{
     transform: scale(1);
+}
+#light{
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    transition: 0.2s ease;
+}
+#light:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#dark{
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    transition: 0.2s ease;
+    background-color: goldenrod;
+}
+#dark:hover{
+    transform: scale(1.2);
+    cursor: pointer;
 }
