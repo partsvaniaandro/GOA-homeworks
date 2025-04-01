@@ -16,6 +16,7 @@ body{
     height: 800px;
     width: 1000px;
     border-radius: 10px;
+    margin: 20px;
 }
 .numInput input{
     width: 250px;
