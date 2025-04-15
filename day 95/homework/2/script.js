@@ -7,7 +7,10 @@ div.style.position = 'relative'
 
 
 
+
+
 function moveDiv(){
+    div.style.transition = `all ${input.value / 8}s ease`
     const timeStep = (Number(input.value) * 1000) / 4
     setTimeout(() => {
         div.style.left = '150px'
@@ -26,6 +29,7 @@ function moveDiv(){
     }, timeStep * 2)
 
 
+
     setTimeout(() => {
         div.style.left = '-150px'
     }, timeStep * 2 + (timeStep / 2))
@@ -33,6 +37,8 @@ function moveDiv(){
     setTimeout(() => {
         div.style.left = '0px'
     }, timeStep * 3)
+
+
 
     setTimeout(() => {
         div.style.top = '-150px'
