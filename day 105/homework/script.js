@@ -8,10 +8,12 @@ child.addEventListener('click', (e)=>{
 })
 parent.addEventListener('click', (e)=>{
     console.log(e.target.id)
-})
+}, true)
+
 grandparent.addEventListener('click', (e)=>{
     console.log(e.target.id)
 })
+
 colorInput.addEventListener('change', ()=>{
     document.body.style.background = colorInput.value
 })
