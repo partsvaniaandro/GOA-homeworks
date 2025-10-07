@@ -1,0 +1,31 @@
+body{
+    background-color: #CFE8FA;
+    color: #2B3E50;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cityInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityInput button{
+    width: 250px;
+    height: 40px;
+    font-size: 22px;
+}
+.cityInput input{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 22px;
+}
+.item{
+    text-align: center;
+}
