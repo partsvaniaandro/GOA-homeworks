@@ -16,8 +16,8 @@ function Main(){
             "ul",
             null,
             React.createElement("li", null, "reactivity"),
-            React.createElement("li", null, "reactivity"),
-            React.createElement("li", null, "reactivity")
+            React.createElement("li", null, "popularity"),
+            React.createElement("li", null, "modularity")
         )
     )
 }
