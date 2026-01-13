@@ -55,6 +55,14 @@ button:hover {
 button:active{
   outline: 4px auto -webkit-focus-ring-color;
 }
+select {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
 
 @media (prefers-color-scheme: light) {
   :root {

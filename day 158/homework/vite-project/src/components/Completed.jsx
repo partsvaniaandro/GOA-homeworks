@@ -42,7 +42,7 @@ const Completed = () => {
         <div className='flex flex-col'>
             <p className='text-[32px]'>unfinished todos</p>
             <button onClick={()=>{
-                displayPosts ? setDisplayPosts(false) : setDisplayPosts(true)
+                setDisplayPosts(prev => !prev)
             }}>{displayPosts ? 'hide todos' : 'show todos'}</button>
             <input placeholder='search todos' value={searchTerm} className='border-solid border-[1px] border-lightgray' onChange={(e) => {
                 handleSearch(e.target.value)

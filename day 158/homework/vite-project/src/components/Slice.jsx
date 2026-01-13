@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Slice = () => {
-    const [data, setData] = React.useState(null);
-    const [loading, setLoading] = React.useState(true);
+    const [data, setData] = useState(null);
+    const [loading, setLoading] = useState(true);
     useEffect(() => {
         const fetchSlice = async() => {
             try{
